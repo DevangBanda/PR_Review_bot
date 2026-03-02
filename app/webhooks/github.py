@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import hmac
 from typing import Any
+from app.comments.formatter import severity_icon
 
 from fastapi import APIRouter, Header, HTTPException, Request
 

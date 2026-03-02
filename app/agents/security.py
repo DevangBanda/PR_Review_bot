@@ -6,7 +6,6 @@ from collections.abc import Sequence
 from app.agents.base import AgentFinding, AgentResult
 from app.github.models import ChangedFile, PullRequestContext
 
-
 SECRET_PATTERNS = [
     (re.compile(r"AKIA[0-9A-Z]{16}"), "Possible AWS access key"),
     (re.compile(r"(?i)api[_-]?key\s*[:=]\s*['\"][A-Za-z0-9_\-]{16,}['\"]"), "Possible API key assignment"),
