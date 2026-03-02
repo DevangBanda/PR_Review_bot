@@ -1,5 +1,9 @@
 # PR Agent Review Bot (Multi-Agent + CI)
 
+## Working Example
+### Structured Report
+<img width="872" height="896" alt="Screenshot 2026-03-02 115639" src="https://github.com/user-attachments/assets/fe189ebf-cf5d-4b9f-8290-22719462a8f8" />
+
 A production-minded GitHub Pull Request reviewer bot that listens to **GitHub webhooks**, runs multiple review “agents”
 (**Security**, **Performance**, **Style**), and posts a consolidated review comment back to the PR.
 
@@ -151,9 +155,7 @@ app/
     github.py
 tests/
 ```
-## Working Example
-### Structured Report
-<img width="872" height="896" alt="Screenshot 2026-03-02 115639" src="https://github.com/user-attachments/assets/fe189ebf-cf5d-4b9f-8290-22719462a8f8" />
+
 
 ---
 
