@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from collections.abc import Sequence
 from dataclasses import dataclass
-from typing import Protocol, Optional
+from typing import Protocol
 
 from app.github.models import ChangedFile, PullRequestContext
 
@@ -12,8 +12,8 @@ class AgentFinding:
     title: str
     severity: str
     details: str
-    file_path: Optional[str] = None
-    line_number: Optional[int] = None
+    file_path: str | None = None
+    line_number: int | None = None
 
 
 @dataclass(frozen=True)
