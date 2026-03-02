@@ -9,19 +9,19 @@ A production-minded GitHub Pull Request reviewer bot that listens to **GitHub we
 - **Runs locally:** Docker / docker-compose
 - **CI:** GitHub Actions (lint + typecheck + tests)
 
-> ⚠️ This repo ships with **safe, rule-based agents** that work out of the box.  
+> This repo ships with **safe, rule-based agents** that work out of the box.  
 > If you add an LLM key, the same agents can produce higher-quality feedback.
 
 ---
 
 ## Features
 
-- ✅ Secure webhook verification (HMAC `X-Hub-Signature-256`)
-- ✅ GitHub API client with retries and rate-limit friendly behavior
-- ✅ Agent orchestration (parallelizable design)
-- ✅ Posts a single **summary review** as a PR comment
-- ✅ Idempotency guard to avoid duplicate comments per PR update
-- ✅ Structured logging for production debugging
+- Secure webhook verification (HMAC `X-Hub-Signature-256`)
+- GitHub API client with retries and rate-limit friendly behavior
+- Agent orchestration (parallelizable design)
+- Posts a single **summary review** as a PR comment
+- Idempotency guard to avoid duplicate comments per PR update
+- Structured logging for production debugging
 
 ---
 
@@ -153,6 +153,7 @@ tests/
 ```
 ## Working Example
 ### Structured Report
+<img width="872" height="896" alt="Screenshot 2026-03-02 115639" src="https://github.com/user-attachments/assets/fe189ebf-cf5d-4b9f-8290-22719462a8f8" />
 
 ---
 
