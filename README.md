@@ -151,6 +151,8 @@ app/
     github.py
 tests/
 ```
+## Working Example
+### Structured Report
 
 ---
 
