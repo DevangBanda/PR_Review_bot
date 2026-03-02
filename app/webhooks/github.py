@@ -3,7 +3,6 @@ from __future__ import annotations
 import hashlib
 import hmac
 from typing import Any
-from app.comments.formatter import severity_icon
 
 from fastapi import APIRouter, Header, HTTPException, Request
 
@@ -11,6 +10,7 @@ from app.agents.orchestrator import AgentOrchestrator
 from app.agents.performance import PerformanceAgent
 from app.agents.security import SecurityAgent
 from app.agents.style import StyleAgent
+from app.comments.formatter import severity_icon
 from app.config import settings
 from app.github.client import GitHubClient
 from app.github.models import PullRequestRef
