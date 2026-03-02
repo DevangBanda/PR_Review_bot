@@ -160,8 +160,3 @@ tests/
 - Consider persistent storage for idempotency if you run multiple replicas
 - Add a queue (e.g., Redis/Celery) if you expect high webhook volume
 
----
-
-## License
-
-MIT
