@@ -157,10 +157,6 @@ app/
     github.py
 tests/
 ```
-
-
----
-
 ## Notes on production readiness
 
 - Use GitHub App credentials (least privilege)
